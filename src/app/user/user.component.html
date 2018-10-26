@@ -1,6 +1,14 @@
 <div class="card" style = "text-align:left">
   <h1><code>User Profile</code></h1>
   <div class="row">
-    <app-search-form-form></app-search-form-form>
+    <app-search-form (addUser)="addNewUser($event)"></app-search-form>
   </div>
+</div>
+<div class="card">
+  <ul>
+    <li appHighlight>{{user.name}}</li>
+    <li appHighlight>{{user.email}}</li>
+    <li>{{user.followers}}</li>
+    <li>{{user.following}}</li>
+  </ul>
 </div>
