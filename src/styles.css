@@ -1,2 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap3/dist/css/bootstrap.css";
+
+#bar{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    margin-right: 20%;
+    position: static;
+}
+h3{
+    justify-content: flex-end;
+    margin-left: 42%;
+    font-family:  'Krub', sans-serif;
+    
+}
+
+#sbutton{
+    margin-left: 45%
+}
+
+body{
+    background-color: rgb(232, 244, 253);
+}

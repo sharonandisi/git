@@ -1,26 +1,9 @@
-<!-- <div class="container-fluid">
+ <div class="container-fluid">
   <div class="row">
-    <form  #searchForm='ngForm' (ngSubmit)='submitUser()'>
+    <form  #searchForm='ngForm' (ngSubmit)='addNewUser()'>
       <div class="form-group">
-        <!-- <input type="text" required class="form-control" placeholder="enter name" id="search" [(ngModel)]="name" name="name"  required> -->
-        <!-- <input type="text" required class="form-control" id="name" [(ngModel)]="name" name="name"> -->
-      <!-- </div> -->
-      <!-- {{name}} -->
-      <!-- <button type="submit"  >Search</button> -->
-    <!-- </form> -->
-  <!-- </div>
-</div>  -->
-<!-- (click)="submitUser()" -->
-<div class="container-fluid">
-  <div class="row">
-    <form (ngSubmit)='submitUser()' #goalForm='ngForm'>
-      <!-- Name Form -->
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" [(ngModel)]="newUser.name" name="name" #name="ngModel" required (input)="getValue($event.target.value)">
-        
-      </div>
-      <button type="Submit">Search</button>
+        <input type="text" required class="form-control" placeholder="enter name" id="search" [(ngModel)]="name" name="name"  required>
+        </div>
+      <button type="submit" id="sbutton" class="btn btn-outline-info btn-lg " >Search</button>
     </form>
-  </div>
 </div>
